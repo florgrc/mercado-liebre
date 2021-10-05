@@ -16,7 +16,7 @@
     position: relative;
     z-index: 100;
 }
-.main-header img {
+.main-header img{
     width: 40%
 }
 .fa-bars {
@@ -34,19 +34,23 @@
 
 .search-bar {
     width: 40%;
-    height: 15px;
-    background-color: #eaeaea;
+    height: 20px;
+    background-color: white;
     border-radius: 3px;
     color: grey;
     display: flex;
     justify-content: space-between;
-    font-size: 60%;
+    font-size: 100%;
+}
+
+input {
+    outline: none;
 }
 
 .fa-search {
     background-color: white;
     margin-top: 0px;
-
+    margin: 3px
 }
 
 .main-header ul {
@@ -112,6 +116,10 @@ p {
 .fa-shopping-basket {
     font-size: 1em;
     margin-left: 3px;
+}
+
+.section-product {
+    margin: 10px;
 }
 
 /*Footer*/
